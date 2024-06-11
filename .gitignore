@@ -1,0 +1,13 @@
+#node_modules
+node_modules
+
+logs
+
+#package-lock
+package-lock.json
+/package-lock.json
+
+#migrtaion folder
+MigrationData
+./MigrationData
+./backupMigrationData

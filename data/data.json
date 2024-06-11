@@ -1,0 +1,361 @@
+{
+  "data": {
+    "headerFooter": {
+      "logo": {
+        "logo": "logo.svg",
+        "logoAltText": "Alt for Logo",
+        "moreButton": "More"
+      },
+      "burger": {
+        "toggleLabel": "Toggle menu",
+        "openLabel": "Open menu",
+        "closeLabel": "Close menu",
+        "openIcon": "open.svg",
+        "closeIcon": "close.svg"
+      },
+      "headerSearch": {
+        "ariaLabelOpen": "Search",
+        "ariaLabelClose": "Close",
+        "swipeLabel": "Swipe",
+        "searchInputPlaceholder": "Type to search",
+        "searchLabel": "Search",
+        "lastSearchesTitle": "Last search",
+        "searchButtonText": "Search",
+        "searchResultsLink": "Search results"
+      },
+      "navigation": [
+        {
+          "subLevels": [
+            {
+              "title": "Title 1-1; Title 1-2",
+              "url": "/url-1-1; url-1-2"
+            }
+          ],
+          "title": "Title 1",
+          "ariaLabel": "Label 1",
+          "url": "/url-1"
+        },
+        {
+          "subLevels": [
+            {
+              "title": "Title 2-1; Title 2-2",
+              "url": "/url-2-1; url-2-2"
+            }
+          ],
+          "title": "Title 2",
+          "ariaLabel": "Label 2",
+          "url": "/url-2"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 3",
+          "ariaLabel": "Label 3",
+          "url": "/url-3"
+        },
+        {
+          "subLevels": [
+            {
+              "title": "Title 4-1; Title 4-2",
+              "url": "/url-4-1; url-4-2"
+            }
+          ],
+          "title": "Title 4",
+          "ariaLabel": "Label 4",
+          "url": "/url-4"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 5",
+          "ariaLabel": "Label 5",
+          "url": "/url-5"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 6",
+          "ariaLabel": "Label 6",
+          "url": "/url-6"
+        }
+      ],
+      "footerLds": [
+        {
+          "title": "Privacy Policy",
+          "ariaLabelAltText": "Privacy Policy",
+          "linkUrl": "/privacy-policy"
+        },
+        {
+          "title": "Cookie Policy",
+          "ariaLabelAltText": "Cookie Policy",
+          "linkUrl": "/cookie-policy"
+        },
+        {
+          "title": "Terms and Conditions",
+          "ariaLabelAltText": "Terms and Conditions",
+          "linkUrl": "/terms"
+        }
+      ],
+      "footerNavigation": [
+        {
+          "subLevels": [],
+          "title": "Title 1",
+          "ariaLabel": "Label 1",
+          "url": "/url-1"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 2",
+          "ariaLabel": "Label 2",
+          "url": "/url-2"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 3",
+          "ariaLabel": "Label 3",
+          "url": "/url-3"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 4",
+          "ariaLabel": "Label 4",
+          "url": "/url-4"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 5",
+          "ariaLabel": "Label 5",
+          "url": "/url-5"
+        },
+        {
+          "subLevels": [],
+          "title": "Title 6",
+          "ariaLabel": "Label 6",
+          "url": "/url-6"
+        }
+      ],
+      "socialMedia": [
+        {
+          "name": "Twitter",
+          "icon": "/twitter.svg",
+          "ariaLabelAltText": "Twitter",
+          "linkUrl": "https://twitter.com/dsjfsj"
+        },
+        {
+          "name": "Youtube"
+        },
+        {
+          "name": "Facebook"
+        },
+        {
+          "name": "Instagram"
+        },
+        {
+          "name": "TikTok"
+        }
+      ]
+    },
+    "pages": [
+      {
+        "pageName": "Sitemap",
+        "body": [],
+        "serviceData": {
+          "isHome": false,
+          "isSearch": false,
+          "isNotFound": false
+        }
+      },
+      {
+        "pageName": "Home Page",
+        "body": [
+          {
+            "type": "teaser",
+            "headline": "Headline",
+            "description": "Description",
+            "backgroundImage": "bg-i.jpg",
+            "imgAltText": "Alt text",
+            "ctaButton": "/read-more"
+          },
+          {
+            "type": "searchResult",
+            "title": "Title",
+            "allResults(tabTitle)": "All Results",
+            "product(tabTitle)": "Products",
+            "allProducts(ctaTitle)": "All Products",
+            "articles(tabTitle)": "Articles"
+          },
+          {
+            "type": "Carousel",
+            "headline": "Headline",
+            "description": "Description",
+            "items": [
+              {
+                "": "Item 1",
+                "icon": "icon-1.svg",
+                "iconAlt": "Alt text",
+                "headline": "Headline"
+              },
+              {
+                "": "Item 2",
+                "icon": "icon-2.svg",
+                "iconAlt": "Alt text",
+                "headline": "Headline"
+              },
+              {
+                "": "Item 3"
+              },
+              {
+                "": "Item 4"
+              },
+              {
+                "": "Item 5"
+              },
+              {
+                "": "Item 6"
+              },
+              {
+                "": "Item 7"
+              },
+              {
+                "": "Item 8"
+              },
+              {
+                "": "Item 9"
+              },
+              {
+                "": "Item 10"
+              }
+            ]
+          },
+          {
+            "type": "contactUs",
+            "headline": "Heaadline",
+            "description": "Description",
+            "items": [
+              {
+                "ctaHeader": "Link title",
+                "ctaShort": "Link text",
+                "ctaLong": "Long link text",
+                "ctaUrl": "/somewhere"
+              },
+              {
+                "ctaHeader": "Link title",
+                "ctaShort": "Link text",
+                "ctaLong": "Long link text",
+                "ctaUrl": "/somewhere"
+              }
+            ]
+          },
+          {
+            "type": "retailers",
+            "title": "Title",
+            "headline": "Headline",
+            "description": "Description",
+            "items": [
+              {
+                "logo": "amazon.svg",
+                "logoAltText": "Amazon",
+                "link": "https://amazon.com",
+                "title": "Amazon",
+                "linkAriaLabel": "Amazon"
+              },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "newsletter",
+            "title": "Title",
+            "headline": "Headline",
+            "description": "Description",
+            "formId": 1234567890,
+            "submitErrorMessage": "Error",
+            "thankYou": {
+              "image": "image.jpg",
+              "altImage": "Alt text",
+              "headline": "Headline",
+              "description": "Description",
+              "linkUrl": "/somewhere"
+            }
+          },
+          {
+            "type": "text",
+            "content": "Text sample"
+          },
+          {
+            "type": "image",
+            "image": "image.jpg",
+            "altText": "Alt text"
+          }
+        ],
+        "serviceData": {
+          "isHome": false,
+          "isSearch": false,
+          "isNotFound": false
+        },
+        "pageType": "contentPage",
+        "pageSettings": {
+          "title": "Home Page",
+          "shortName": "Home Page",
+          "metaTitle": "Home Page",
+          "metaDescription": "Home Page description",
+          "metaKeywords": "keyword 1; keyword 2",
+          "category": "Category name",
+          "section": "Content",
+          "headline": "Headline",
+          "description": "Description"
+        },
+        "heroBanner": {
+          "headline": "Headline",
+          "description": "Description",
+          "backgroundImage": "bg-i.jpg",
+          "imgAltText": "Alt text",
+          "hiddenHeading": "Hidden title",
+          "ctaButton": "/read-more"
+        }
+      }
+    ],
+    "staticPages": [
+      {
+        "pageName": "404",
+        "body": [
+          {
+            "type": "image",
+            "image": "Required"
+          },
+          {
+            "type": "imageAlt",
+            "imgAltText": "Required"
+          },
+          {
+            "type": "caption",
+            "caption": "optional"
+          },
+          {
+            "type": "title",
+            "title": "Required"
+          },
+          {
+            "type": "description",
+            "description": "Required"
+          },
+          {
+            "type": "cta"
+          }
+        ],
+        "serviceData": {
+          "isHome": false,
+          "isSearch": false,
+          "isNotFound": true
+        },
+        "pageType": "staticPage",
+        "pageSettings": {
+          "title": "Page not found",
+          "shortName": "Page not found",
+          "metaTitle": "Page not found",
+          "metaDescription": "Page not found description",
+          "metaKeywords": "keyword 1; keyword2",
+          "section": "Content"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "reckitt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "generate-schema": "^2.6.0",
+    "json-schema-generator": "^2.0.6",
+    "mkdirp": "^3.0.1",
+    "process": "^0.11.10",
+    "to-json-schema": "^0.2.5"
+  }
+}

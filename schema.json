@@ -1,0 +1,500 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "headerFooter": {
+          "type": "object",
+          "properties": {
+            "logo": {
+              "type": "object",
+              "properties": {
+                "logo": {
+                  "type": "string"
+                },
+                "logoAltText": {
+                  "type": "string"
+                },
+                "moreButton": {
+                  "type": "string"
+                }
+              }
+            },
+            "burger": {
+              "type": "object",
+              "properties": {
+                "toggleLabel": {
+                  "type": "string"
+                },
+                "openLabel": {
+                  "type": "string"
+                },
+                "closeLabel": {
+                  "type": "string"
+                },
+                "openIcon": {
+                  "type": "string"
+                },
+                "closeIcon": {
+                  "type": "string"
+                }
+              }
+            },
+            "headerSearch": {
+              "type": "object",
+              "properties": {
+                "ariaLabelOpen": {
+                  "type": "string"
+                },
+                "ariaLabelClose": {
+                  "type": "string"
+                },
+                "swipeLabel": {
+                  "type": "string"
+                },
+                "searchInputPlaceholder": {
+                  "type": "string"
+                },
+                "searchLabel": {
+                  "type": "string"
+                },
+                "lastSearchesTitle": {
+                  "type": "string"
+                },
+                "searchButtonText": {
+                  "type": "string"
+                },
+                "searchResultsLink": {
+                  "type": "string"
+                }
+              }
+            },
+            "navigation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subLevels": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "url"
+                      ]
+                    }
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "ariaLabel": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subLevels",
+                  "title",
+                  "ariaLabel",
+                  "url"
+                ]
+              }
+            },
+            "footerLds": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "ariaLabelAltText": {
+                    "type": "string"
+                  },
+                  "linkUrl": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "title",
+                  "ariaLabelAltText",
+                  "linkUrl"
+                ]
+              }
+            },
+            "footerNavigation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subLevels": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "ariaLabel": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subLevels",
+                  "title",
+                  "ariaLabel",
+                  "url"
+                ]
+              }
+            },
+            "socialMedia": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "icon": {
+                    "type": "string"
+                  },
+                  "ariaLabelAltText": {
+                    "type": "string"
+                  },
+                  "linkUrl": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name"
+                ]
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pageName": {
+                "type": "string"
+              },
+              "body": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "backgroundImage": {
+                      "type": "string"
+                    },
+                    "imgAltText": {
+                      "type": "string"
+                    },
+                    "ctaButton": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "allResults(tabTitle)": {
+                      "type": "string"
+                    },
+                    "product(tabTitle)": {
+                      "type": "string"
+                    },
+                    "allProducts(ctaTitle)": {
+                      "type": "string"
+                    },
+                    "articles(tabTitle)": {
+                      "type": "string"
+                    },
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "": {
+                            "type": "string"
+                          },
+                          "icon": {
+                            "type": "string"
+                          },
+                          "iconAlt": {
+                            "type": "string"
+                          },
+                          "headline": {
+                            "type": "string"
+                          },
+                          "ctaHeader": {
+                            "type": "string"
+                          },
+                          "ctaShort": {
+                            "type": "string"
+                          },
+                          "ctaLong": {
+                            "type": "string"
+                          },
+                          "ctaUrl": {
+                            "type": "string"
+                          },
+                          "logo": {
+                            "type": "string"
+                          },
+                          "logoAltText": {
+                            "type": "string"
+                          },
+                          "link": {
+                            "type": "string"
+                          },
+                          "title": {
+                            "type": "string"
+                          },
+                          "linkAriaLabel": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "",
+                          "icon",
+                          "iconAlt",
+                          "headline",
+                          "ctaHeader",
+                          "ctaShort",
+                          "ctaLong",
+                          "ctaUrl"
+                        ]
+                      }
+                    },
+                    "formId": {
+                      "type": "number"
+                    },
+                    "submitErrorMessage": {
+                      "type": "string"
+                    },
+                    "thankYou": {
+                      "type": "object",
+                      "properties": {
+                        "image": {
+                          "type": "string"
+                        },
+                        "altImage": {
+                          "type": "string"
+                        },
+                        "headline": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "linkUrl": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "altText": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "headline",
+                    "description",
+                    "items",
+                    "title"
+                  ]
+                }
+              },
+              "serviceData": {
+                "type": "object",
+                "properties": {
+                  "isHome": {
+                    "type": "boolean"
+                  },
+                  "isSearch": {
+                    "type": "boolean"
+                  },
+                  "isNotFound": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "pageType": {
+                "type": "string"
+              },
+              "pageSettings": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "shortName": {
+                    "type": "string"
+                  },
+                  "metaTitle": {
+                    "type": "string"
+                  },
+                  "metaDescription": {
+                    "type": "string"
+                  },
+                  "metaKeywords": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              },
+              "heroBanner": {
+                "type": "object",
+                "properties": {
+                  "headline": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "backgroundImage": {
+                    "type": "string"
+                  },
+                  "imgAltText": {
+                    "type": "string"
+                  },
+                  "hiddenHeading": {
+                    "type": "string"
+                  },
+                  "ctaButton": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "required": [
+              "pageName",
+              "body",
+              "serviceData"
+            ]
+          }
+        },
+        "staticPages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pageName": {
+                "type": "string"
+              },
+              "body": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "image": {
+                      "type": "string"
+                    },
+                    "imgAltText": {
+                      "type": "string"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ]
+                }
+              },
+              "serviceData": {
+                "type": "object",
+                "properties": {
+                  "isHome": {
+                    "type": "boolean"
+                  },
+                  "isSearch": {
+                    "type": "boolean"
+                  },
+                  "isNotFound": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "pageType": {
+                "type": "string"
+              },
+              "pageSettings": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "shortName": {
+                    "type": "string"
+                  },
+                  "metaTitle": {
+                    "type": "string"
+                  },
+                  "metaDescription": {
+                    "type": "string"
+                  },
+                  "metaKeywords": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

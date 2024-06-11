@@ -1,0 +1,125 @@
+{
+    "data": "./MigrationData",
+    "backup": "./backupMigrationData",
+    "json_file": "",
+    "json_filename": "data.json",
+    "table_prefix": "wp_",
+    "entryfolder": "entries",
+    "modules": {
+        "locales": {
+            "dirName": "locales",
+            "fileName": "locales.json"
+        },
+        "webhooks": {
+            "dirName": "webhooks",
+            "fileName": "webhooks.json"
+        },
+        "environments": {
+            "dirName": "environments",
+            "fileName": "environments.json"
+        },
+        "contentTypes": {
+            "dirName": "content_types",
+            "fileName": "contenttype.json",
+            "masterfile": "contenttypes.json",
+            "validKeys": [
+                "title",
+                "uid",
+                "schema",
+                "options",
+                "singleton",
+                "description"
+            ]
+        },
+        "authors": {
+            "dirName": "authors",
+            "fileName": "en-us.json",
+            "masterfile": "authors.json"
+        },
+        "categories": {
+            "dirName": "categories",
+            "fileName": "en-us.json",
+            "masterfile": "categories.json"
+        },
+        "tag": {
+            "dirName": "tag",
+            "fileName": "en-us.json",
+            "masterfile": "tag.json"
+        },
+        "terms": {
+            "dirName": "terms",
+            "fileName": "en-us.json",
+            "masterfile": "terms.json"
+        },
+        "references": {
+            "dirName": "reference",
+            "fileName": "en-us.json",
+            "masterfile": "reference.json"
+        },
+        "asset": {
+            "dirName": "assets",
+            "fileName": "assets.json",
+            "featuredfileName": "_featured.json",
+            "masterfile": "url_master.json"
+        },
+        "posts": {
+            "dirName": "posts",
+            "fileName": "en-us.json",
+            "masterfile": "posts.json"
+        },
+        "entries": {
+            "dirName": "entries",
+            "fileName": "en-us.json",
+            "masterfile": "entries.json"
+        },
+        "vocabulary": {
+            "dirName": "vocabulary",
+            "fileName": "en-us.json",
+            "masterfile": "vocabulary.json"
+        },
+        "taxonomy": {
+            "dirName": "taxonomy",
+            "fileName": "en-us.json",
+            "masterfile": "taxonomy.json"
+        },
+        "article": {
+            "dirName": "article",
+            "fileName": "en-us.json",
+            "masterfile": "article.json"
+        }
+    },
+    "contenttypes": "content_types",
+    "contentmodules": {
+        "authors": {
+            "fileName": "authors.json"
+        },
+        "categories": {
+            "fileName": "categories.json"
+        },
+        "posts": {
+            "fileName": "posts.json"
+        },
+        "terms": {
+            "fileName": "terms.json"
+        },
+        "tag": {
+            "fileName": "tag.json"
+        },
+        "schema": {
+            "fileName": "schema.json"
+        },
+        "sharepoint": {
+            "dirName": "sharepoint",
+            "english": "en-us.json",
+            "arabic": "ar-sa.json",
+            "masterfile": "sharepoint.json"
+        }
+    },
+    "base_locale": {
+        "name": "English US",
+        "code": "en-us"
+    },
+    "base_url": "http://localhost/",
+    "public_path": "/sites/default/files/",
+    "private_path": ""
+}
